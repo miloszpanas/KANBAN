@@ -1,0 +1,84 @@
+/* Lane styles */
+
+
+.Lane {
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  margin: 40px 10px;
+  width: 370px;
+}
+
+.LaneDelete {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.LaneDelete button {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: rgb(254, 180, 37);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.LaneName {
+  text-align: left;
+  border-bottom: 3px solid rgb(254, 180, 37);
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px 10px 0 0;
+}
+
+.LaneName span {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.LaneAddNote {
+  margin: 20px auto;
+}
+
+.AddLane, .LaneAddNote button {
+  background-color: #242424;
+  color: rgb(247, 247, 247);
+  padding: 5px 10px;
+  font-size: 15px;
+  width: 160px;
+  font-weight: 300;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+}
+
+.AddLane {
+	width: 180px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.AddLane:hover {
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+/* Lanes styles */
+
+.lanes {
+  display: flex;
+  align-items: flex-start;
+}
+/* Lane styles */
